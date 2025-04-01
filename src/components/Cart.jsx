@@ -1,5 +1,6 @@
 import styles from './Cart.module.scss';
 import PromotionTimer from './PromotionTimer';
+import myImg from './assets/work.png'
 
 function Cart() {
   return (
@@ -57,7 +58,7 @@ function Cart() {
         <h2>Мереживна накидка</h2>
       </div>
       <div className={styles.img}>
-        <img src="/work.png" alt="name" />
+        <img src={myImg} alt="name" />
       </div>
       <div className={styles.boxContent}>
         <div className={styles.description}>

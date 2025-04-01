@@ -1,0 +1,21 @@
+.promotion {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    background-color: rgb(242, 33, 22);
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 38px;
+      font-weight: 400;
+    }
+    b {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}

@@ -57,7 +57,7 @@ function Cart() {
         <h2>Мереживна накидка</h2>
       </div>
       <div className={styles.img}>
-        <img src="/img/work.png" alt="name" />
+        <img src="/work.png" alt="name" />
       </div>
       <div className={styles.boxContent}>
         <div className={styles.description}>
